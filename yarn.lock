@@ -14632,14 +14632,14 @@ tsscmp@1.0.6:
   resolved "https://registry.yarnpkg.com/tsscmp/-/tsscmp-1.0.6.tgz#85b99583ac3589ec4bfef825b5000aa911d605eb"
   integrity sha512-LxhtAkPDTkVCMQjt2h6eBVY28KCjikZqZfMcC15YBeNjkgUpdCfBu5HoiOTDu86v6smE8yOjyEktJ8hlbANHQA==
 
-twilio-video@*, twilio-video@^2.32.1:
-  version "2.32.1"
-  resolved "https://registry.yarnpkg.com/twilio-video/-/twilio-video-2.32.1.tgz#1377915c54ccc5ff176fd54edd5e751b53b7f2a5"
-  integrity sha512-GDRF/I68cH8CISuWShXkzn7sa1TwT290BWL9gEseAEhNNFN7H+2yQIzmR/Q3uVHfGgkrp2QvQCEcfh85fADivA==
+twilio-video@*, twilio-video@^2.33.0:
+  version "2.33.0"
+  resolved "https://registry.yarnpkg.com/twilio-video/-/twilio-video-2.33.0.tgz#95b117e722314aefd8676bab00ce67f54fa38333"
+  integrity sha512-caj0cIBC0piShm2sygHJ5ejQgP3CmpSqk0BT+IXprmHr9H5OWpd41ICcZwu0G16/Urp/QnzIG82dXd8hM1BYMQ==
   dependencies:
     events "^3.3.0"
     util "^0.12.4"
-    ws "^7.4.6"
+    ws "^8.18.3"
 
 twilio@^5.10.3:
   version "5.10.3"
@@ -15476,12 +15476,7 @@ ws@8.18.0:
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.18.0.tgz#0d7505a6eafe2b0e712d232b42279f53bc289bbc"
   integrity sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==
 
-ws@^7.4.6:
-  version "7.5.10"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.10.tgz#58b5c20dc281633f6c19113f39b349bd8bd558d9"
-  integrity sha512-+dbF1tHwZpXcbOJdVOkzLDxZP1ailvSxM6ZweXTegylPny803bFhA+vqBYw4s31NSAk4S2Qz+AKXK9a4wkdjcQ==
-
-ws@^8.13.0, ws@^8.18.0:
+ws@^8.13.0, ws@^8.18.0, ws@^8.18.3:
   version "8.18.3"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.18.3.tgz#b56b88abffde62791c639170400c93dcb0c95472"
   integrity sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg==

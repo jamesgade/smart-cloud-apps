@@ -113,7 +113,7 @@
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.0",
     "twilio": "^5.10.3",
-    "twilio-video": "^2.32.1",
+    "twilio-video": "^2.33.0",
     "typeorm": "^0.3.26",
     "zod": "^4.1.11"
   }
