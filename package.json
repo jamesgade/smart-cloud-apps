@@ -80,7 +80,7 @@
     "@refinedev/mui": "^7.0.0",
     "@refinedev/react-hook-form": "^5.0.0",
     "@refinedev/react-router": "^2.0.0",
-    "@refinedev/simple-rest": "^6.0.0",
+    "@refinedev/simple-rest": "^6.0.1",
     "@sendgrid/mail": "^8.1.5",
     "@types/bcrypt": "^6.0.0",
     "@types/twilio-video": "^2.11.0",
