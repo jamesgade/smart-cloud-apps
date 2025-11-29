@@ -3993,10 +3993,10 @@
     tslib "^2.6.2"
     warn-once "^0.1.0"
 
-"@refinedev/react-hook-form@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@refinedev/react-hook-form/-/react-hook-form-5.0.0.tgz#fdfbd48f90546f5882bd417ce0c0aa705457399e"
-  integrity sha512-LkORP0J8V0c5e8tWFq7YAt+M2RN4Du11gvOcSYmH4Dq2UXFzHfOj4wV7yOIwHghyhiMEFvmVRxxqtM8y0rjimw==
+"@refinedev/react-hook-form@^5.0.0", "@refinedev/react-hook-form@^5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@refinedev/react-hook-form/-/react-hook-form-5.0.3.tgz#974fb97dfb14e588bbfa543fa542b02d412aff73"
+  integrity sha512-p8FolVs4QrWTWxC5N53ynsipMaZNVkOTHbej05/IWubMcl+56aAdHqDcpG4+8YHmtEwTPM0RVZlmyMtXeKzPmQ==
   dependencies:
     lodash "^4.17.21"
     lodash-es "^4.17.21"
