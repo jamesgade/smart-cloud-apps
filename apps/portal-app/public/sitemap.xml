@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://campusyatra.com/</loc>
+    <lastmod>2025-10-16</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://campusyatra.com/about</loc>
+    <lastmod>2025-10-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://campusyatra.com/courses</loc>
+    <lastmod>2025-10-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://campusyatra.com/contact</loc>
+    <lastmod>2025-10-16</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+</urlset>

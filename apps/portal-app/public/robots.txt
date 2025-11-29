@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Disallow admin or backend pages (optional)
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /login/
+
+# Sitemap URL
+Sitemap: https://campusyatra.com/sitemap.xml
+
+# Prevent duplicate crawling
+Crawl-delay: 10

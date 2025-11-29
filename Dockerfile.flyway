@@ -1,0 +1,4 @@
+FROM flyway/flyway:9
+
+RUN ["rm", "-fr", "/flyway/sql"]
+COPY database/sql/ /flyway/sql/

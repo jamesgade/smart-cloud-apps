@@ -1,0 +1,98 @@
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+interface ApplicationConfiguration {
+  NODE_ENV: string;
+  PORTAL_API_PORT: string;
+  DATABASE_HOST: string;
+  DATABASE_NAME: string;
+  DATABASE_PASSWORD: string;
+  DATABASE_PORT: number;
+  DATABASE_TZ: string;
+  DATABASE_SCHEMA: string;
+  DATABASE_USER: string;
+  DATABASE_SSL_CERT?: string; // Optional for backward compatibility
+  JWT_ACCESS_SECRET: string;
+  JWT_REFRESH_SECRET: string;
+  ACCESS_TOKEN_EXPIRES_IN: string;
+  REFRESH_TOKEN_EXPIRES_IN: string;
+  COGNITO_CLIENT_ID: string;
+  COGNITO_POOL_ID: string;
+  COGNITO_REGION: string;
+  COGNITO_CUSTOM_SOURCE_VALUE: string;
+  REDIS_HOST: string;
+  REDIS_PORT: number;
+  REDIS_TTL: number;
+  ENABLE_CACHING: boolean;
+  REDIS_USERNAME: string;
+  REDIS_PASSWORD: string;
+  AWS_ACCESS_KEY_ID:string;
+  AWS_SECRET_ACCESS_KEY:string;
+  AWS_REGION:string;
+  APP_URL: string;
+}
+
+const {
+  NODE_ENV = 'production',
+  PORTAL_API_PORT = '7080',
+  DATABASE_HOST = '',
+  DATABASE_NAME = '',
+  DATABASE_PASSWORD = '',
+  DATABASE_PORT = '5432',
+  DATABASE_TZ = '',
+  DATABASE_SCHEMA = '',
+  DATABASE_USER = '',
+  DATABASE_SSL_CERT = '', // Optional for backward compatibility
+  JWT_ACCESS_SECRET = '',
+  JWT_REFRESH_SECRET = '',
+  ACCESS_TOKEN_EXPIRES_IN = '',
+  REFRESH_TOKEN_EXPIRES_IN = '',
+  COGNITO_CLIENT_ID = '',
+  COGNITO_POOL_ID = '',
+  COGNITO_REGION = '',
+  COGNITO_CUSTOM_SOURCE_VALUE = '',
+  REDIS_HOST = 'locahost',
+  REDIS_PORT = '6379',
+  REDIS_TTL = '30',
+  ENABLE_CACHING = false,
+  REDIS_USERNAME = 'default',
+  REDIS_PASSWORD = '',
+  AWS_ACCESS_KEY_ID='',
+  AWS_SECRET_ACCESS_KEY='',
+  AWS_REGION='',
+  APP_URL=''
+} = process.env;
+
+const config: ApplicationConfiguration = {
+  NODE_ENV,
+  PORTAL_API_PORT,
+  DATABASE_HOST,
+  DATABASE_NAME,
+  DATABASE_PASSWORD,
+  DATABASE_PORT: parseInt(DATABASE_PORT),
+  DATABASE_TZ,
+  DATABASE_SCHEMA,
+  DATABASE_USER,
+  DATABASE_SSL_CERT,
+  JWT_ACCESS_SECRET,
+  JWT_REFRESH_SECRET,
+  ACCESS_TOKEN_EXPIRES_IN,
+  REFRESH_TOKEN_EXPIRES_IN,
+  COGNITO_CLIENT_ID,
+  COGNITO_POOL_ID,
+  COGNITO_REGION,
+  COGNITO_CUSTOM_SOURCE_VALUE,
+  REDIS_HOST,
+  REDIS_PORT: parseInt(REDIS_PORT),
+  REDIS_TTL: parseInt(REDIS_TTL),
+  ENABLE_CACHING: ENABLE_CACHING === 'true' ? true : false,
+  REDIS_USERNAME,
+  REDIS_PASSWORD,
+  AWS_ACCESS_KEY_ID,
+  AWS_SECRET_ACCESS_KEY,
+  AWS_REGION,
+  APP_URL
+};
+
+export default config;

@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+/* react-toastify success alert styles */
+.Toastify__toast--success {
+  color: #3b5e3d;
+  background-color: #edf7ed;
+}
+
+/* react-toastify error alert styles */
+.Toastify__toast--error {
+  color: #875555;
+  background: #fdeded;
+}
+
+/* react-toastify warning alert styles */
+.Toastify__toast--warning {
+  color: #663c00;
+  background: #fff4e5;
+}
+
+/* react-toastify info alert styles */
+.Toastify__toast--info {
+  color: #014361;
+  background: #e5f6fd;
+}
+
+/* Disable color induced to Input by autofill */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #000 !important;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+  transition: background-color 5000s ease-in-out 0s !important;
+};

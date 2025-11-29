@@ -1,0 +1,37 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@smart-cloud-apps/common-api-lib": [
+        "apps/common/common-api-lib/src/index.ts"
+      ],
+      "@smart-cloud-apps/common-dto": ["apps/common/common-dto/src/index.ts"],
+      "@smart-cloud-apps/common-feature": [
+        "apps/common/common-feature/src/index.ts"
+      ],
+      "@smart-cloud-apps/portal-api-lib": [
+        "apps/portal/portal-api-lib/src/index.ts"
+      ],
+      "@smart-cloud-apps/portal-common": [
+        "apps/portal/portal-common/src/index.ts"
+      ],
+      "@smart-cloud-apps/portal-feature": [
+        "apps/portal/portal-feature/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
