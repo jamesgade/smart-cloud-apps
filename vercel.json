@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/admin", "destination": "https://campusyatra-ui-dev.vercel.app/admin" },
+    { "source": "/admin/:match*", "destination": "https://campusyatra-ui-dev.vercel.app/admin/:match*" },
+    { "source": "/", "destination": "https://campusyatra-ui-dev.vercel.app/" },
+    { "source": "/:match*", "destination": "https://campusyatra-ui-dev.vercel.app/:match*" }
+  ]
+}
